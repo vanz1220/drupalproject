@@ -1,0 +1,10 @@
+#header {
+    background-color: #7d1334;
+    background-image: -webkit-linear-gradient(top, #7d1334 0%, #7d1334 100%);
+    background-image: linear-gradient(to bottom, #7d1334 0%, #7d1334 100%);
+}
+.region-primary-menu .block-menu .menu {
+    margin: 0;
+    padding: 0 15px;
+    font-size: 0.929em;
+}
