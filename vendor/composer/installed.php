@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '9.3.12',
-        'version' => '9.3.12.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => 'a802dbba5a0d5ba43c1f6500eed11a156dc1cfca',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -388,6 +388,15 @@
                 0 => '9.3.12',
             ),
         ),
+        'drupal/css_editor' => array(
+            'pretty_version' => '2.0.1',
+            'version' => '2.0.1.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/css_editor',
+            'aliases' => array(),
+            'reference' => '2.0.1',
+            'dev_requirement' => false,
+        ),
         'drupal/datetime' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -635,12 +644,12 @@
             ),
         ),
         'drupal/recommended-project' => array(
-            'pretty_version' => '9.3.12',
-            'version' => '9.3.12.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'a802dbba5a0d5ba43c1f6500eed11a156dc1cfca',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
